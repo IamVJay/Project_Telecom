@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(123, 209, 180);">
+    <h1> Fiber Capex Predection </h1>
+
+
+    <form action="/get_data" method="post">
+        <label>TND Scope IP (Meter):</label> <input type="number" name = 'html_TND_Scope_IP_Meter'> <br><br>
+
+        <label>TND Per Meter (Meter):</label> <input type="number" name = 'html_TND_per_Mete'> <br><br>
+
+        <label>ROW Per Meter (Meter):</label> <input type="number" name = 'html_ROW_Per_Meter'> <br><br>
+
+
+        <label>Building ID : </label>
+        <select name="html_ID">
+            <option value="BLDG_ID_AGBMBD0311718">AGBMBD0311718</option>
+            <option value='BLDG_ID_BBILBD0000290'>BBILBD0000290</option>
+            <option value='BLDG_ID_BDGHBD0097038'>BDGHBD0097038</option>
+            <option value='BLDG_ID_CHNNBD0062206'>CHNNBD0062206</option>
+            <option value='BLDG_ID_CTTRBD0002352'>CTTRBD0002352</option>
+            <option value='BLDG_ID_DMTRBD0024571'>DMTRBD0024571</option>
+            <option value='BLDG_ID_DPHUBD0007887'>DPHUBD0007887</option>
+            <option value='BLDG_ID_FSNGBD0000338'>FSNGBD0000338</option>
+            <option value='BLDG_ID_HDBDBD0303686'>HDBDBD0303686</option>
+            <option value='BLDG_ID_HSURBD0047899'>HSURBD0047899</option>
+            <option value='BLDG_ID_ICKJBD0000744'>ICKJBD0000744</option>
+            <option value='BLDG_ID_JBLPBD0064985'>JBLPBD0064985</option>
+            <option value='BLDG_ID_JLDRBD0123615'>JLDRBD0123615</option>
+            <option value='BLDG_ID_KNTDBD0047085'>KNTDBD0047085</option>
+            <option value='BLDG_ID_LKMPBD0062346'>LKMPBD0062346</option>
+            <option value='BLDG_ID_MDURBD0193179'>MDURBD0193179</option>
+            <option value='BLDG_ID_MUMBBD0308617'>MUMBBD0308617</option>
+            <option value='BLDG_ID_MUMBBD0379405'>MUMBBD0379405</option>
+            <option value='BLDG_ID_NPNIBD0016251'>NPNIBD0016251</option>
+            <option value='BLDG_ID_NSHKBD0060970'>NSHKBD0060970</option>
+            <option value='BLDG_ID_PLGRBD0022833'>PLGRBD0022833</option>
+            <option value='BLDG_ID_RJKTBD0016176'>RJKTBD0016176</option>
+            <option value='BLDG_ID_SLEMBD0043912'>SLEMBD0043912</option>
+            <option value='BLDG_ID_SRDPBD0000002'>SRDPBD0000002</option>
+            <option value='BLDG_ID_SURTBD0128500'>SURTBD0128500</option>
+            <option value='BLDG_ID_WNDGBD0000008'>WNDGBD0000008</option>
+            
+        </select> <br><br>
+
+        <label>State: </label>
+        <select name="html_state">
+            <option value='ANDHRA_PRADESH'>ANDHRA_PRADESH</option>
+            <option value='ASSAM'>ASSAM</option>
+            <option value='CHHATTISGARH'>CHHATTISGARH</option>
+            <option value='GUJARAT'>GUJARAT</option>
+            <option value='HARYANA'>HARYANA</option>
+            <option value='KARNATAKA'>KARNATAKA</option>
+            <option value='KERALA'>KERALA</option>
+            <option value='MADHYA_PRADESH'>MADHYA_PRADESH</option>
+            <option value='MAHARASHTRA'>MAHARASHTRA</option>
+            <option value='MUMBAI'>MUMBAI</option>
+            <option value='PUNJAB'>PUNJAB</option>
+            <option value='TAMIL_NADU'>TAMIL_NADU</option>
+            <option value='TELANGANA'>TELANGANA</option>
+            <option value='UTTAR_PRADESH_EAST'>UTTAR_PRADESH_EAST</option>
+            
+        </select> <br><br>        
+
+        <input type="submit" value="CHARGES PREDICTION">
+
+
+    </form><br>
+    
+    
+</body>
+</html>
